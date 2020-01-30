@@ -101,6 +101,7 @@ class _JogoState extends State<Jogo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+
         title: Text("JOKENPO"),
       ) ,
       body: Column(
@@ -114,7 +115,7 @@ class _JogoState extends State<Jogo> {
               "Escolha do app",
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -128,7 +129,7 @@ class _JogoState extends State<Jogo> {
               this._mensagem,
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
